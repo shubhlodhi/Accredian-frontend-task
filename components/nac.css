@@ -1,0 +1,156 @@
+.upper img{
+    /* display: flex; */
+    width: 100%;
+    border-radius: 10px;
+
+}
+.navbar img{
+    width: 150px;
+    height: 50px;
+
+}
+.custom-select {
+    background-color: #007bff !important; /* Blue background */
+    color: white !important; /* White text */
+    border: 2px solid #0056b3 !important; /* Darker blue border */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+}
+
+.custom-select:focus {
+    border-color: #003f7f !important; /* Darker blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glowing effect */
+}
+select{
+    font-size: larger;
+    font-weight: 600;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:10px ; */
+    /* margin-left: 30px; */
+    padding-left: 20px;
+}
+.right span{
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.left select{
+    margin-left: 30px;
+}
+.right button{
+    margin-right: 20px;
+}
+.right span{
+    font-size: large;
+    font-weight: 600;
+
+}
+.newnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: lightblue; */
+    /* width: 300px; */
+}
+.newnav span{
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 400;
+}
+.ne1{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 245, 255, 1);
+    border-radius: 20px;
+}
+.jumbo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+.jumbotron{
+    width: 800px;
+    height: 500px;
+    background-color:  rgba(238, 245, 255, 1);
+    
+    
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+/* .jumbotron img{
+    width: 400px;
+} */
+.img2 img{
+    width: 300px;
+}
+.img1 img{
+    width: 300px;
+}
+.huu{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.pes img{
+    width: 100px;
+}
+.butt{
+    display: flex;
+    flex-direction: column;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    backdrop-filter: blur(5px); /* Blur effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal box */
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.close{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Blur the entire body when modal is open */
+.body.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
